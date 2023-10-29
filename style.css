@@ -1,0 +1,64 @@
+* {
+  background-image: url('Imagens/transito.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.traffic-light {
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.btn {
+  margin: 0 13px;
+  padding: 15px 25px;
+  font-size: 16px;
+  position: relative;
+}
+
+#btnRed {
+  background-color: red;
+  color: white;
+}
+
+#btnYellow {
+  background-color: yellow;
+  color: rgb(255, 255, 255);
+}
+
+#btnGreen {
+  background-color: green;
+  color: white;
+}
+
+#btnOff {
+  background-color: gray;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+#traffic-light-image {
+  max-width: 100%;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 16px;
+}
